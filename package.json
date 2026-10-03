@@ -1,0 +1,7 @@
+{
+  "name": "dots-the-lost-spark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A complete offline Canvas platform adventure",
+  "scripts": { "start": "node server.js", "test": "node tests/game.test.js" }
+}
