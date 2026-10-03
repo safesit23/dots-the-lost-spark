@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#e3ebe4"><meta name="description" content="A tiny dot. A big sky. A complete pixel platform adventure across five floating islands.">
+<title>DOTS: The Lost Spark</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%235d8bef' d='M5 14h4V9h13v4h5v13H5z'/%3E%3Cpath fill='%232c3049' d='M6 8h19v5H6zM13 18h3v5h-3zm7 0h3v5h-3z'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="./" aria-label="Dots home"><span class="brand-star">✦</span> little sky studio</a><span class="edition">AN ADVENTURE IN YOUR POCKET <span>001</span></span><button id="sound" class="sound-button" aria-label="Unmute sound">♪ <span>Sound off</span></button></header>
+<main>
+<section class="intro"><div class="eyebrow"><span></span> A SMALL HERO. A SKY FULL OF POSSIBILITY.</div><h1>Some lights are worth<br>going a little further for.</h1><p>Find your spark. Bring it home.</p></section>
+<section class="console" aria-label="DOTS handheld game console">
+<div class="console-top"><span class="console-logo">dots<span>™</span></span><span class="hardware-label">POCKET ADVENTURE SYSTEM</span><i class="power-light"></i></div>
+<div class="screen-housing"><div class="screen-top"><span><i></i> THE LOST SPARK</span><span>320 × 288</span></div><div class="screen" id="screen">
+<canvas id="game" width="320" height="288" tabindex="0" aria-label="DOTS game screen. Use arrows to move, Z to jump or float, X to inhale or spit."></canvas>
+<div id="overlay" class="overlay"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+</div><div class="screen-bottom"><span>COLOR · LIGHT · A LITTLE COURAGE</span><span>✦</span></div></div>
+<div class="controls">
+<div class="dpad-area"><div class="dpad" aria-label="Directional controls"><button data-input="up" aria-label="Up, interact" class="up">▲</button><button data-input="left" aria-label="Move left" class="left">◀</button><div class="dpad-center"></div><button data-input="right" aria-label="Move right" class="right">▶</button><button data-input="down" aria-label="Down, crouch" class="down">▼</button></div><span class="control-caption">MOVE / EXPLORE</span></div>
+<div class="system-controls"><button id="map-button" class="pill-button" aria-label="World map">MAP</button><button id="start-button" class="pill-button" aria-label="Pause or resume">START</button><span class="system-caption">✦ TAKE YOUR TIME ✦</span></div>
+<div class="action-area"><div class="action-buttons"><div><button data-input="b" class="action b" aria-label="B, inhale or spit">B</button><span>INHALE</span></div><div><button data-input="a" class="action a" aria-label="A, jump or float">A</button><span>JUMP</span></div></div><div class="speaker"><i></i><i></i><i></i><i></i></div></div>
+</div>
+<div class="console-foot"><span>MADE FOR WANDERING</span><span>✧</span><span>NO RUSH. JUST WONDER.</span></div>
+</section>
+<div class="keyboard-guide"><span><kbd>←</kbd><kbd>→</kbd> Move</span><span><kbd>Z</kbd> Jump & float</span><span><kbd>X</kbd> Inhale & spit</span><span><kbd>↵</kbd> Pause</span><span><kbd>Tab</kbd> Map</span></div>
+<section class="field-notes"><div><span class="note-number">01 / THE JOURNEY</span><h2>Five islands. One little light.</h2><p>Grow a path, catch a breeze, and brighten the dark.<br>Everything you need is already somewhere nearby.</p></div><div class="object-notes"><span><b class="seed-icon">◆</b>SEED<small>Make room to grow</small></span><span><b class="wind-icon">≋</b>WIND<small>Set things in motion</small></span><span><b class="spark-icon">✦</b>SPARK<small>Let a little light in</small></span></div></section>
+</main>
+<footer><span>A tiny, handcrafted browser adventure.</span><span>PLAY OFFLINE · PROGRESS SAVES HERE</span></footer>
+<script src="game.js"></script>
+</body></html>
